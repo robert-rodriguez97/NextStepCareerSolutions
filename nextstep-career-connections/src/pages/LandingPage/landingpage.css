@@ -1,0 +1,98 @@
+.bg-light {
+  background-color: #ffffff !important;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.container-fluid {
+  padding: 10px 16px;
+}
+
+.main-container {
+  max-width: 1400px;
+  margin: 0 auto 0;
+}
+
+.hero-container {
+  margin-top: 50px;
+}
+
+.label-circle {
+  width: 12px;
+  height: 12px;
+  background-color: #f09700;
+  border-radius: 50%;
+}
+
+.hero-label {
+  display: flex;
+  align-items: center;
+  max-width: fit-content;
+  gap: 10px;
+  flex-direction: row;
+  font-size: 14px;
+  font-weight: bold;
+  color: #001f27;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  padding: 12px 16px;
+  background-color: #dbf5ff;
+  border-radius: 12px;
+}
+
+.hero-text-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #00382e;
+}
+
+.heading-sub {
+  font-size: 24px;
+  font-weight: normal;
+  color: #865300;
+}
+
+.hero-paragraph-container {
+  max-width: 800px;
+}
+
+.hero-paragraph {
+  font-size: 18px;
+  color: #344a50;
+  line-height: 1.5;
+  text-align: justify; /* Ensures the paragraph text is justified. Aligns both left and right edges. */
+}
+
+.hero-btns-container {
+  display: flex;
+  gap: 16px;
+}
+
+.hero-btn-primary {
+  background-color: #f09700;
+  color: #663e00;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.hero-btn-secondary {
+  background-color: #00382e;
+  color: #fff;
+  border: 1px solid #00382e;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
