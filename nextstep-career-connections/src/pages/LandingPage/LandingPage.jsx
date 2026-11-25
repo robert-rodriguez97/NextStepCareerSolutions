@@ -37,6 +37,9 @@ export default function LandingPage() {
             <button className="hero-btn-secondary">Contact Us</button>
           </div>
         </div>
+        <div className="hero-img">
+          <img src="https://t3.ftcdn.net/jpg/02/08/75/34/360_F_208753444_wxbyQdNk3HptqXepy0bW32KUvqh1jZ7V.jpg" />
+        </div>
       </div>
     </div>
   );

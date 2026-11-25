@@ -15,6 +15,10 @@
 }
 
 .hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px; /* Adds space between the hero text and the hero image */
   margin-top: 50px;
 }
 
@@ -95,4 +99,15 @@ h1 {
   cursor: pointer;
   font-size: 16px;
   font-weight: bold;
+}
+
+.hero-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-img img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
 }
