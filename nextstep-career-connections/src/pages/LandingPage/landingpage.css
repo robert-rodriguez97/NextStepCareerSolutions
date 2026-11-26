@@ -145,6 +145,7 @@ h1 {
   display: grid; /* Uses CSS Grid for layout */
   grid-template-columns: repeat(2, 1fr); /* Creates two equal-width columns */
   margin-top: 40px;
+  gap: 40px; /* Adds space between the two columns */
 }
 
 .about-block-one {
@@ -153,7 +154,7 @@ h1 {
   gap: 6px;
   padding: 30px;
   background-color: #ffffff; /* Adds a white background to the about block */
-  border-radius: 12px; /* Adds rounded corners to the about block */
+  border-radius: 30px; /* Adds rounded corners to the about block */
   max-width: fit-content; /* Ensures the block only takes up as much space as its content */
 }
 
@@ -167,4 +168,66 @@ h1 {
 .about-paragraph-light {
   color: #606060;
   font-size: 16px;
+}
+
+/* Mission Statement Section */
+.mission-statement-container {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #dbf5ff;
+  border-radius: 12px;
+}
+
+.mission-statement-heading {
+  font-size: 20px;
+  font-weight: bold;
+  color: #00382e;
+  margin-bottom: 12px;
+}
+
+.mission-statement-paragraph {
+  font-size: 16px;
+  color: #344a50;
+  line-height: 1.5;
+  font-style: italic; /* Makes the mission statement paragraph italicized */
+  font-weight: bold; /* Makes the mission statement paragraph bold */
+}
+
+.mission-svg {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  color: #865300;
+}
+
+.about-block-two {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px;
+  background-color: #00382e;
+  border-radius: 30px; /* Adds rounded corners to the about block */
+  max-width: fit-content; /* Ensures the block only takes up as much space as its content */
+}
+
+.about-star-svg {
+  width: 54px;
+  height: 54px;
+  margin-right: 8px;
+  color: #865300;
+  padding: 4px; /* Adds some padding around the star SVG */
+  background-color: #f29900; /* Adds a background color to the star SVG */
+  border-radius: 12px; /* Makes the background of the star SVG circular */
+}
+
+.about-heading-secondary {
+  font-size: 34px;
+  color: #fff;
+  max-width: fit-content; /* Ensures the heading only takes up as much space as its content */
+}
+
+.about-paragraph-two {
+  font-size: 16px;
+  color: #bdfeeb;
+  line-height: 1.5;
 }
