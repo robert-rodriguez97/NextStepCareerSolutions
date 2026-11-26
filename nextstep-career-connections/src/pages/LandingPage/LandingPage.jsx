@@ -41,6 +41,34 @@ export default function LandingPage() {
           <img src="https://t3.ftcdn.net/jpg/02/08/75/34/360_F_208753444_wxbyQdNk3HptqXepy0bW32KUvqh1jZ7V.jpg" />
         </div>
       </div>
+      <section className="about-section">
+        <div className="about-heading-container">
+          <span className="about-span">Our Foundation & Purpose</span>
+          <h2 className="about-heading">
+            Empowering Your Pathway to
+            <br /> Sustainable Success
+          </h2>
+        </div>
+        <div className="about-content">
+          <div className="about-block-one">
+            <p className="about-paragraph-bold">
+              At NextStep Career Solutions, we believe everyone deserves the
+              opportunity to build a successful and fulfilling career. Our
+              mission is to empower individuals by providing personalized
+              employment support, career guidance, and resources that help them
+              move forward with confidence.
+            </p>
+            <p className="about-paragraph-light">
+              We offer practical, career-focused services designed to help
+              individuals navigate the job market, strengthen their professional
+              skills, and pursue new employment opportunites. Whether you are
+              entering the workforce, looking for a career change, returning to
+              employment, or seeking opportunites for professional growth, we
+              are here to help you take your next step.
+            </p>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
