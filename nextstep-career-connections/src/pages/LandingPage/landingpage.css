@@ -239,9 +239,25 @@ h1 {
 }
 
 .about-heading-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
   margin-top: 40px;
 }
 
 .about-heading-left {
   max-width: fit-content; /* Ensures the heading only takes up as much space as its content */
+}
+
+.about-heading-right {
+  max-width: fit-content; /* Ensures the blockquote only takes up as much space as its content */
+}
+
+.about-heading-right-blockquote {
+  font-size: 16px;
+  color: #000000;
+  font-style: italic; /* Makes the blockquote italicized */
+  background-color: #ffddb9;
+  padding: 10px; /* Adds padding inside the blockquote */
+  border-radius: 12px; /* Adds rounded corners to the blockquote */
 }

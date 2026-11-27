@@ -133,6 +133,11 @@ export default function LandingPage() {
               <br /> Background
             </h2>
           </div>
+          <div className="about-heading-right">
+            <blockquote className="about-heading-right-blockquote">
+              "Your goals. Your potential. Your next opportunity."
+            </blockquote>
+          </div>
         </div>
       </section>
     </div>
