@@ -114,19 +114,19 @@ h1 {
 }
 
 /* About Section */
-.about-section {
+.mission-section {
   padding: 60px 20px;
   background-color: #dbf5ff;
 }
 
-.about-heading-container {
+.mission-heading-container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   max-width: 800px;
 }
 
-.about-span {
+.mission-span {
   display: block;
   font-size: 14px;
   font-weight: bold;
@@ -134,21 +134,21 @@ h1 {
   text-transform: uppercase;
 }
 
-.about-heading {
+.mission-heading {
   font-size: 40px;
   font-weight: bold;
   color: #00382e;
-  margin-top: 16px;
+  margin-top: 6px;
 }
 
-.about-content {
+.mission-content {
   display: grid; /* Uses CSS Grid for layout */
   grid-template-columns: repeat(2, 1fr); /* Creates two equal-width columns */
   margin-top: 40px;
   gap: 40px; /* Adds space between the two columns */
 }
 
-.about-block-one {
+.mission-block-one {
   display: flex;
   flex-direction: column;
   gap: 6px;
@@ -158,14 +158,14 @@ h1 {
   max-width: fit-content; /* Ensures the block only takes up as much space as its content */
 }
 
-.about-paragraph-bold {
+.mission-paragraph-bold {
   font-size: 18px;
   font-weight: bold;
   color: #344a50;
   line-height: 1.5;
 }
 
-.about-paragraph-light {
+.mission-paragraph-light {
   color: #606060;
   font-size: 16px;
 }
@@ -200,7 +200,7 @@ h1 {
   color: #865300;
 }
 
-.about-block-two {
+.mission-block-two {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -210,7 +210,7 @@ h1 {
   max-width: fit-content; /* Ensures the block only takes up as much space as its content */
 }
 
-.about-star-svg {
+.mission-star-svg {
   width: 54px;
   height: 54px;
   margin-right: 8px;
@@ -220,14 +220,28 @@ h1 {
   border-radius: 12px; /* Makes the background of the star SVG circular */
 }
 
-.about-heading-secondary {
+.mission-heading-secondary {
   font-size: 34px;
   color: #fff;
   max-width: fit-content; /* Ensures the heading only takes up as much space as its content */
 }
 
-.about-paragraph-two {
+.mission-paragraph-two {
   font-size: 16px;
   color: #bdfeeb;
   line-height: 1.5;
+}
+
+/* About Section */
+.about-section {
+  padding: 60px 20px; /* Adds padding to the top and bottom of the about section */
+  background-color: #f0fbfd;
+}
+
+.about-heading-container {
+  margin-top: 40px;
+}
+
+.about-heading-left {
+  max-width: fit-content; /* Ensures the heading only takes up as much space as its content */
 }

@@ -41,24 +41,24 @@ export default function LandingPage() {
           <img src="https://t3.ftcdn.net/jpg/02/08/75/34/360_F_208753444_wxbyQdNk3HptqXepy0bW32KUvqh1jZ7V.jpg" />
         </div>
       </div>
-      <section className="about-section">
-        <div className="about-heading-container">
-          <span className="about-span">Our Foundation & Purpose</span>
-          <h2 className="about-heading">
+      <section className="mission-section">
+        <div className="mission-heading-container">
+          <span className="mission-span">Our Foundation & Purpose</span>
+          <h2 className="mission-heading">
             Empowering Your Pathway to
             <br /> Sustainable Success
           </h2>
         </div>
-        <div className="about-content">
-          <div className="about-block-one">
-            <p className="about-paragraph-bold">
+        <div className="mission-content">
+          <div className="mission-block-one">
+            <p className="mission-paragraph-bold">
               At NextStep Career Solutions, we believe everyone deserves the
               opportunity to build a successful and fulfilling career. Our
               mission is to empower individuals by providing personalized
               employment support, career guidance, and resources that help them
               move forward with confidence.
             </p>
-            <p className="about-paragraph-light">
+            <p className="mission-paragraph-light">
               We offer practical, career-focused services designed to help
               individuals navigate the job market, strengthen their professional
               skills, and pursue new employment opportunites. Whether you are
@@ -91,14 +91,14 @@ export default function LandingPage() {
               </p>
             </div>
           </div>
-          <div className="about-block-two">
+          <div className="mission-block-two">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="size-6 about-star-svg"
+              className="size-6 mission-star-svg"
             >
               <path
                 strokeLinecap="round"
@@ -107,11 +107,11 @@ export default function LandingPage() {
               />
             </svg>
 
-            <h3 className="about-heading-secondary">
+            <h3 className="mission-heading-secondary">
               What Makes The
               <br /> Business Unique
             </h3>
-            <p className="about-paragraph-two">
+            <p className="mission-paragraph-two">
               Our approach combines personalized career support with
               <br /> practical employment knowledge. We understand the
               <br />
@@ -121,6 +121,17 @@ export default function LandingPage() {
               <br /> employers and helps them stand out in today's competitive
               job market.
             </p>
+          </div>
+        </div>
+      </section>
+      <section className="about-section">
+        <div className="about-heading-container">
+          <div className="about-heading-left">
+            <span className="mission-span">Professional Leadership</span>
+            <h2 className="mission-heading">
+              About Us/Professional
+              <br /> Background
+            </h2>
           </div>
         </div>
       </section>
