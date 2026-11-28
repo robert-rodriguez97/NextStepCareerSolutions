@@ -163,6 +163,19 @@ export default function LandingPage() {
             </div>
             <div className="experience-highlights">
               <h3>Professional Experience Includes:</h3>
+              <div className="experience-items">
+                <ul>
+                  <li>Resume development</li>
+                  <li>Job search assistance</li>
+                  <li>Interview preparation</li>
+                  <li>Career guidance</li>
+                  <li>Job readiness training</li>
+                  <li>
+                    Connecting individuals with employment, education, and
+                    vocational training opportunities
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>

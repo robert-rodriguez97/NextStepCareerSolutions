@@ -289,3 +289,19 @@ h3 {
   border-radius: 30px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
+.experience-items {
+  margin-top: 20px; /* Adds space above the experience items */
+}
+
+ul {
+  list-style-type: none; /* Removes bullets for the list */
+  padding-left: 1rem; /* Adds left padding to the list */
+}
+
+li {
+  padding: 12px; /* Adds vertical padding to each list item */
+  border-radius: 12px; /* Adds rounded corners to each list item */
+  background-color: #dbf5ff; /* Adds a background color to each list item */
+  margin-bottom: 8px; /* Adds space below each list item */
+}
