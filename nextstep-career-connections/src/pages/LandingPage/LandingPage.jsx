@@ -139,6 +139,33 @@ export default function LandingPage() {
             </blockquote>
           </div>
         </div>
+        <div className="about-content">
+          <div className="about-content-left">
+            <div className="about-content-left-heading">
+              <h3>Our Team</h3>
+              <p className="about-content-left-sub">
+                Career Guidance Practitioner & Specialist
+              </p>
+            </div>
+            <div className="about-content-left-paragraph">
+              <p>
+                With professional experiecnce in employment services and
+                workforce development, I am passionate about helping individuals
+                overcome employment barries and reach their career goals. My
+                background includes resume development, job search assistance,
+                interview preparation, career guidance, job readiness training,
+                and connecting individuals with employment, education, and
+                vocational training opportunities. I believe everyone deserves
+                the opportunity to succeed. My approach combines practical
+                employment knowledge, personalized support, and a genuine
+                commitment to helping people succeed in their careers.
+              </p>
+            </div>
+            <div className="experience-highlights">
+              <h3>Professional Experience Includes:</h3>
+            </div>
+          </div>
+        </div>
       </section>
     </div>
   );

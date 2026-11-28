@@ -261,3 +261,31 @@ h1 {
   padding: 10px; /* Adds padding inside the blockquote */
   border-radius: 12px; /* Adds rounded corners to the blockquote */
 }
+
+.about-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 40px;
+  gap: 40px;
+}
+
+h3 {
+  font-size: 26px;
+  color: #00382e;
+}
+
+.about-content-left-sub {
+  font-size: 16px;
+  color: #865300;
+  margin-top: 4px;
+}
+
+.about-content-left {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 24px;
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
